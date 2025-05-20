@@ -1,39 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-  firstName: "Tai",
-  lastName: "Nguyen",
+  firstName: "Milos",
+  lastName: "Nedeljkovic",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Senior Front End Developer",
+  role: "Fullstack Web3 Engineer",
   avatar: "/images/avatar.jpg",
-  location: "America/Los_Angeles", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Khmer"], // optional: Leave the array empty if you don't want to display languages
-};
-
-const newsletter = {
-  display: true,
-  title: <>Subscribe to {person.firstName}'s Newsletter</>,
-  description: (
-    <div className="space-y-8">
-      <NewsletterCard
-        title="The Future of Frontend: Trends to Watch in 2024"
-        summary="Explore the biggest trends shaping frontend development this year."
-        cta={[
-          "1. Which trend excites you most? Reply to this email!",
-          "2. Want to deep dive on one of these? Let me know!",
-        ]}
-        trends={[
-          "React Server Components (RSC)",
-          "WebAssembly (WASM) for high-performance apps",
-          "AI-powered UI generation tools",
-          "Edge computing & CDN-powered frontends",
-          "State management evolution",
-        ]}
-      />
-    </div>
-  ),
+  location: "Europe/Belgrade",
+  languages: ["English", "Serbian"],
 };
 
 const social = [
@@ -42,12 +18,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/stackmaster92",
+    link: "https://github.com/optistdev",
   },
   {
     name: "Email",
     icon: "email",
-    link: "mailto:taidev722@gmail.com.com",
+    link: "mailto:inodaren62@gmail.com",
   },
 ];
 
@@ -55,11 +31,11 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Front End Developer</>,
+  headline: <>Fullstack Web3 Engineer</>,
   subline: (
     <>
-      I'm Tai, a Results-driven Senior Front End Developer <br /> with proven
-      track record of building high-performance websites
+      I'm Milos, a Results-driven Fullstack Web3 Engineer <br /> with proven
+      track record of building high-performance Dapps
     </>
   ),
 };
@@ -84,10 +60,12 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Tai is a California-based Senior Frontend Developer with a passion for
-        transforming complex challenges into scalable, high-performance frontend
-        solutions. His work spans digital design, interactive experiences, and
-        the convergence of user interfaces and technology.
+        Milos is a Full-Stack Web3 Engineer based in Serbia, specializing in
+        developing scalable, high-performance decentralized applications
+        (DApps). He is passionate about turning complex technical challenges
+        into elegant solutions, with a strong focus on digital design,
+        interactive user experiences, and the seamless integration of user
+        interfaces with cutsting-edge technologies.
       </>
     ),
   },
@@ -96,125 +74,110 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "AcuityMD",
-        timeframe: "7/2022 - 1/2025",
-        role: "Senior Front End Developer",
+        company: "DataArt",
+        timeframe: "10/2023 - 12/2024",
+        role: "Senior Fullstack Web3 Engineer",
         achievements: [
           <>
-            Developed a furnishing and apartment design platform using React.
+            Let development of dapps with integrated smart contracts and secure
+            EVM interactions.
           </>,
           <>
-            Implemented WCAG 2.1-compliant UI components that ensure a fully
-            accessible design experience for users.
+            Designed and developed a scalable backend services and serverless
+            infrastructure to handle wallet authentication, token-based access,
+            and real-time on-chain events.
           </>,
           <>
-            Led the update of websites to align with new marketing strategies
-            and collaborated closely with designers to enhance styling details.
+            Set up CI/CD pipelines for contract testing, deployment, and web3
+            integration.
           </>,
           <>
-            Scaled state management using Redux and optimized data flow to boost
-            performance and maintainability.
-          </>,
-          <>
-            Translated complex technical concepts into clear insights for
-            non-technical stakeholders.
-          </>,
-          <>
-            Containerized React apps with Docker and automated deployments via
-            CI/CD, accelerating development workflows.
-          </>,
-          <>
-            Wrote unit/integration tests (Cypress, Jest) to enhance UI
-            reliability and platform stability.
-          </>,
-          <>
-            Led a cross-functional team to launch a new product line,
-            contributing to a 15% increase in overall company revenue.
+            Partnered with Product and Design teams to deliver smooth dApp
+            experiences, focusing on wallet connectivity, transaction signing
+            UX, and responsive on-chain data rendering.
           </>,
         ],
         images: [
           // optional: leave the array empty if you don't want to display images
           {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
+            src: "/images/projects/dataart/dataart1.png",
+            alt: "Payment platform",
+            width: 24,
+            height: 14,
           },
         ],
       },
       {
-        company: "Isovalent",
-        timeframe: "2/2019 - 6/2022",
-        role: "React Front End Developer",
+        company: "Sitejet",
+        timeframe: "11/2021 - 4/2023",
+        role: "Web3 Engineer",
         achievements: [
           <>
-            Developed robust test suites for search, filtering and
-            recommendation systems to increase reliability and test coverage.{" "}
+            Developed and maintained decentralized applications (dApps) using
+            React and Solidity, interacting with Ethereum and Polygon smart
+            contracts to enable seamless user interactions.
           </>,
           <>
-            Optimized a complex React component and reduced re-renders to
-            improve app performance.
+            Implemented wallet integrations (MetaMask, WalletConnect) and
+            handled token transfers, NFT minting, and DeFi operations.
           </>,
           <>
-            Collaborated with UX/UI designers to translate wireframes into
-            functional prototypes to ensure brand consistency and accelerating
-            iterative feedback cycles.
+            Built and deployed smart contracts for token issuance (ERC-20,
+            ERC-721) and staking protocols, ensuring secure and gas-efficient
+            contract execution
           </>,
           <>
-            Engineered the Trail Advisor platform with Next.js and implemented
-            asynchronous API handling and SSR to boost performance
-          </>,
-          <>
-            Implemented WCAG-compliant accessibility standards across all UI
-            components to create inclusive experiences for users with diverse
-            abilities.
-          </>,
-          <>
-            Delivered pixel-perfect UIs by meticulously translating Figma
-            designs to code.
-          </>,
-          <>
-            Optimized database performance by refactoring legacy SQL queries to
-            reduce query execution time.
-          </>,
-          <>
-            Boosted rendering performance via async techniques and streamlined
-            page transitions.
+            Created serverless APIs with Node.js and AWS Lambda to monitor
+            on-chain events and process transactions.
           </>,
         ],
         images: [],
       },
       {
-        company: "Eon",
-        timeframe: "4/2017 - 1/2019",
+        company: "Sogelink",
+        timeframe: "11/2019 - 10/2021",
+        role: "React & React Native Developer",
+        achievements: [
+          <>
+            Developed and maintained cross-platform mobile applications for iOS
+            and Android using React Native, ensuring smooth performance and a
+            consistent user experience.
+          </>,
+          <>
+            Collaborated with design teams to implement intuitive UI components.
+          </>,
+          <>
+            Integrated third-party APIs and libraries such as Firebase and
+            GraphQL, enhancing data synchronization between the mobile app and
+            cloud services.
+          </>,
+          <>
+            Performed code reviews and followed best practices in React Native
+            development.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Vega IT",
+        timeframe: "4/2018 - 10/2019",
         role: "Front End Developer",
         achievements: [
           <>
-            Implemented a fluid grid system and flexible layouts using Grid,
-            Flexbox and media queries to ensure responsiveness across various
-            screen sizes and devices.
+            Contributed to client-facing single-page applications using
+            React.js, improving user experience and responsiveness.
           </>,
           <>
-            Developed and delivered MVP application for analyzing credit card
-            points
+            Participated in daily stand-ups, sprint planning, and retrospectives
+            as part of an Agile development team.
           </>,
           <>
-            Developed a complex, JSON-based form solution that took care of form
-            generation for the client and validation on both back-end and client
-            side
+            Collaborated with designers to deliver responsive, accessible user
+            interfaces in line with WCAG standards.
           </>,
           <>
-            Developed Netflix-like media platform using React, Next.Js based on
-            the Figma designs.
-          </>,
-          <>
-            Refactored legacy components and optimized HTML structure to improve
-            code readability and maintainability.
-          </>,
-          <>
-            Performed rigorous cross-browser testing and resolved
-            inconsistencies in HTML semantics, CSS styling and responsive
-            breakpoints.
+            Ensured that UI components followed the design system and were
+            responsive on various screen sizes.
           </>,
         ],
         images: [],
@@ -226,7 +189,7 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "Hanoi Universiy of Science and Technology",
+        name: "Singidunum University",
         description: <>Studied Computer Science.</>,
       },
     ],
@@ -236,30 +199,9 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Figma",
+        title: "Fullstack Development",
         description: (
-          <>Able to prototype in Figma with Once UI with unnatural speed.</>
-        ),
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        title: "Next.js",
-        description: (
-          <>Building next gen apps with Next.js + Once UI + Supabase.</>
+          <>Building next gen apps with Next.js + Node.js + Tailwind CSS.</>
         ),
         // optional: leave the array empty if you don't want to display images
         images: [
@@ -269,7 +211,19 @@ const about = {
             width: 16,
             height: 9,
           },
+          {
+            src: "/images/projects/project-01/cover-02.jpg",
+            alt: "Project image",
+            width: 16,
+            height: 9,
+          },
         ],
+      },
+      {
+        title: "Mobile Development",
+        description: <>Building mobile web apps with React Native + Web3 Integration.</>,
+        // optional: leave the array empty if you don't want to display images
+        images: [],
       },
     ],
   },
@@ -370,103 +324,4 @@ const gallery = {
   ],
 };
 
-function NewsletterCard({ title, summary, cta, trends }) {
-  return (
-    <div
-      style={{
-        maxWidth: "42rem", // max-w-2xl
-        marginLeft: "auto",
-        marginRight: "auto",
-        padding: "1.5rem", // p-6
-        borderRadius: "0.75rem", // rounded-xl
-        boxShadow:
-          "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)", // shadow-md
-        transition: "box-shadow 0.3s ease", // transition-shadow
-        cursor: "pointer",
-        ":hover": {
-          boxShadow:
-            "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)", // hover:shadow-lg
-        },
-      }}
-    >
-      <h2
-        style={{
-          fontSize: "1.5rem", // text-2xl
-          fontWeight: "700", // font-bold
-          marginBottom: "0.5rem", // mb-2
-        }}
-      >
-        {title}
-      </h2>
-
-      <p
-        style={{
-          marginBottom: "1rem", // mb-4
-        }}
-      >
-        {summary}
-      </p>
-
-      {trends && (
-        <ul
-          style={{
-            marginBottom: "1rem", // mb-4
-            display: "flex",
-            flexDirection: "column",
-            gap: "0.5rem",
-            paddingLeft: "3rem",
-          }}
-        >
-          {trends.map((trend, index) => (
-            <li
-              key={index}
-              style={{
-                display: "flex",
-                alignItems: "flex-start", // items-start
-              }}
-            >
-              <span
-                style={{
-                  marginRight: "0.5rem", // mr-2
-                }}
-              >
-                ✓
-              </span>
-              <span style={{}}>{trend}</span>
-            </li>
-          ))}
-        </ul>
-      )}
-
-      {cta && (
-        <ul
-          style={{
-            marginBottom: "1rem", // mb-4
-            display: "flex",
-            flexDirection: "column",
-          }}
-        >
-          {cta.map((que, index) => (
-            <li
-              key={index}
-              style={{
-                display: "flex",
-                alignItems: "flex-start", // items-start
-              }}
-            >
-              <span
-                style={{
-                  fontStyle: "italic",
-                }}
-              >
-                {que}
-              </span>
-            </li>
-          ))}
-        </ul>
-      )}
-    </div>
-  );
-}
-
-export { person, social, newsletter, home, about, blog, work, gallery };
+export { person, social, home, about, blog, work, gallery };
