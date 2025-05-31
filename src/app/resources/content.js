@@ -1,5 +1,3 @@
-import { InlineCode } from "@/once-ui/components";
-
 const person = {
   firstName: "Milos",
   lastName: "Nedeljkovic",
@@ -16,19 +14,29 @@ const social = [
   // Links are automatically displayed.
   // Import new icons in /once-ui/icons.ts
   {
-    name: "GitHub",
-    icon: "github",
-    link: "https://github.com/optistdev",
-  },
-  {
     name: "Email",
     icon: "email",
-    link: "https://mail.google.com/mail/?view=cm&fs=1&to=$inodaren62@gmail.com",
+    link: "https://mail.google.com/mail/?view=cm&fs=1&to=inodaren62@gmail.com",
   },
   {
     name: "Linkedin",
     icon: "linkedin",
     link: "https://www.linkedin.com/in/milos-nedeljkovic-b133ba319/",
+  },
+  {
+    name: "Discord",
+    icon: "discord",
+    link: "https://discord.com/users/1362223542112092310/",
+  },
+  {
+    name: "Telegram",
+    icon: "telegram",
+    link: "https://t.me/milos0122",
+  },
+  {
+    name: "GitHub",
+    icon: "github",
+    link: "https://github.com/optistdev",
   },
 ];
 
@@ -58,19 +66,20 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://calendly.com/taidev722",
+    link: "https://calendly.com/inodaren62",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Milos is a Full-Stack Web3 Engineer based in Serbia, specializing in
-        developing scalable, high-performance decentralized applications
-        (DApps). He is passionate about turning complex technical challenges
-        into elegant solutions, with a strong focus on digital design,
-        interactive user experiences, and the seamless integration of user
-        interfaces with cutsting-edge technologies.
+        Milos is a Full Stack, Web3, and Mobile Engineer with over 7 years of
+        experience building secure, scalable decentralized applications and
+        cross-platform mobile apps. Known for his calm, detail-oriented approach
+        and strong problem-solving skills, he thrives in collaborative
+        environments and enjoys learning from others. He is currently seeking a
+        new opportunity where he can contribute to innovative and
+        forward-thinking blockchain and mobile projects.
       </>
     ),
   },
@@ -102,15 +111,7 @@ const about = {
             UX, and responsive on-chain data rendering.
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/dataart/dataart1.png",
-            alt: "Payment platform",
-            width: 24,
-            height: 14,
-          },
-        ],
+        images: [],
       },
       {
         company: "Sitejet",
@@ -195,7 +196,13 @@ const about = {
     institutions: [
       {
         name: "Singidunum University",
-        description: <>Studied Computer Science.</>,
+        description: (
+          <>
+            He earned his Bachelor's degree in Computer Science from Singidunum
+            University, where he built a strong foundation in software
+            engineering and system architecture.
+          </>
+        ),
       },
     ],
   },
@@ -204,31 +211,66 @@ const about = {
     title: "Technical skills",
     skills: [
       {
-        title: "Fullstack Development",
-        description: (
-          <>Building next gen apps with Next.js + Node.js + Tailwind CSS.</>
-        ),
+        title: "Frontend Development",
+        description: <></>,
         // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
+        languages: [
+          { Icon: "javascript", label: "JavaScript", color: "#f7df1e" },
+          { Icon: "typescript", label: "TypeScript", color: "#3178c6" },
+          { Icon: "react", label: "React.js", color: "#61DAFB" },
+          { Icon: "nextjs", label: "Next.js" },
+          { Icon: "reactnative", label: "React Native", color: "#61DAFB" },
+          { Icon: "angularjs", label: "Angular.js", color: "#DD0031" },
+          { Icon: "redux", label: "Redux", color: "#764ABC" },
+          { Icon: "tailwindcss", label: "Tailwind CSS", color: "#38B2AC" },
+          { Icon: "graphql", label: "GraphQL", color: "#E10098" },
         ],
       },
       {
-        title: "Mobile Development",
-        description: <>Building mobile web apps with React Native + Web3 Integration.</>,
+        title: "Backend Development",
+        description: <></>,
         // optional: leave the array empty if you don't want to display images
-        images: [],
+        languages: [
+          { Icon: "python", label: "Python", color: "#3776AB" },
+          { Icon: "nodejs", label: "Node.js", color: "#339933" },
+          { Icon: "express", label: "Express" },
+          { Icon: "django", label: "Django", color: "#092E20" },
+          { Icon: "fastapi", label: "Fast API" },
+        ],
+      },
+      {
+        title: "Blockchain Development",
+        description: <></>,
+        languages: [
+          { Icon: "solidity", label: "Solidity" },
+          { Icon: "rust", label: "Rust" },
+          { Icon: "web3js", label: "Web3.js" },
+          { Icon: "ethers", label: "Ethers.js" },
+          { Icon: "wagmi", label: "WAGMI" },
+          { Icon: "walletconnect", label: "WalletConnect" },
+        ],
+      },
+      {
+        title: "Databases",
+        description: <></>,
+        languages: [
+          { Icon: "postgresql", label: "PostgreSQL", color: "#336791" },
+          { Icon: "mysql", label: "MySQL", color: "#4479A1" },
+          { Icon: "mongodb", label: "MongoDB", color: "#47A248" },
+          { Icon: "redis", label: "Redis", color: "#DC382D" },
+        ],
+      },
+      {
+        title: "Infrastructure & Testing",
+        description: <></>,
+        languages: [
+          { Icon: "docker", label: "Docker", color: "#2496ED" },
+          { Icon: "cicd", label: "CI/CD" },
+          { Icon: "kubernetes", label: "Kubernetes", color: "#326CE5" },
+          { Icon: "githubIcon", label: "GitHub" },
+          { Icon: "cypress", label: "Cypress" },
+          { Icon: "jest", label: "Jest", color: "#C21325" },
+        ],
       },
     ],
   },
@@ -301,7 +343,7 @@ const gallery = {
       alt: "image",
       orientation: "horizontal",
     },
-    { 
+    {
       src: "/images/gallery/gallery (13).jpg",
       alt: "image",
       orientation: "horizontal",
