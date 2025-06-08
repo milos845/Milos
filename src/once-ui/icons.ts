@@ -36,6 +36,37 @@ import {
   PiImageDuotone,
 } from "react-icons/pi";
 
+import {
+  SiJavascript,
+  SiTypescript,
+  SiReact,
+  SiRedux,
+  SiNextdotjs,
+  SiTailwindcss,
+  SiChakraui,
+  SiCypress,
+  SiJest,
+  SiNodedotjs,
+  SiExpress,
+  SiGraphql,
+  SiPython,
+  SiDjango,
+  SiFastapi,
+  SiMysql,
+  SiPostgresql,
+  SiMongodb,
+  SiRedis,
+  SiTensorflow,
+  SiDocker,
+  SiKubernetes,
+  SiGit,
+  SiVuedotjs,
+  SiSpringboot,
+  SiPhp,
+  SiLaravel,
+  SiGooglecloud
+} from "react-icons/si";
+
 import { FaDiscord, FaGithub, FaLinkedin, FaX } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
@@ -73,6 +104,34 @@ export const iconLibrary: Record<string, IconType> = {
   moon: HiMoon,
   sun: HiSun,
   document: HiOutlineDocument,
+  javascript: SiJavascript,
+  typescript: SiTypescript,
+  react: SiReact,
+  vue: SiVuedotjs,
+  redux: SiRedux,
+  nextjs: SiNextdotjs,
+  tailwind: SiTailwindcss,
+  chakraui: SiChakraui,
+  cypress: SiCypress,
+  jest: SiJest,
+  nodejs: SiNodedotjs,
+  express: SiExpress,
+  graphql: SiGraphql,
+  python: SiPython,
+  django: SiDjango,
+  fastapi: SiFastapi,
+  mysql: SiMysql,
+  postgresql: SiPostgresql,
+  mongodb: SiMongodb,
+  redis: SiRedis,
+  tensorflow: SiTensorflow,
+  docker: SiDocker,
+  kubernetes: SiKubernetes,
+  git: SiGit,
+  springboot: SiSpringboot,
+  gcp:SiGooglecloud,
+  php:SiPhp,
+  laravel:SiLaravel,
 };
 
 export type IconLibrary = typeof iconLibrary;

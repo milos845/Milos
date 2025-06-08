@@ -1,0 +1,35 @@
+---
+title: "Secure Peer-to-Peer Marketplace Platform"
+summary: "Built Maketrade.app to enable secure, vetted secondhand transactions by combining escrow payments, strong KYC, and real-time trade monitoring."
+images:
+  - "/images/projects/peer/img (2).png"
+  - "/images/projects/peer/img (1).png"
+  - "/images/projects/peer/img (3).png"
+link: "https://www.maketrade.app/"
+---
+
+## Overview
+
+Maketrade is a Finnish platform designed to make buying and selling used goods online as safe and reliable as purchasing new items. By providing escrow-managed payments, in-app user verification, and seller ratings, Maketrade minimizes fraud and builds trust in peer-to-peer trades.
+
+## Key Features
+
+- **Escrow Payment System**: Payments are held in trust via Mangopay until both buyer and seller confirm completion, safeguarding both sides.
+- **Strong KYC Verification**: Users undergo verified identity checks before transacting, adding a layer of trust and reducing fraud.
+- **Peer Ratings & Reputation**: After every trade, participants rate each other—creating transparent reputational profiles.
+- **Intuitive User Interface**: Mobile-responsive UI guides users through listing items, making offers, and completing transactions effortlessly.
+- **Tailored for Circular Economy**: The platform’s mission is to promote sustainable consumption by making secondhand trade reliable and user-friendly.
+
+## Challenging Problems & Resolutions
+
+- **Escrow Integration Across POS & Web**:
+
+Challenge: Ensuring that payments are securely held and released only after successful delivery required seamless API integration with Mangopay and dependable real-time status updates.
+
+Resolution: We built redundant webhooks, real-time trade status tracking, and fallback mechanisms—ensuring funds remain secure, even amid network issues.
+
+- **Balancing Speed with Compliance**:
+
+Challenge: Users expected quick, peer-like exchanges, but regulatory requirements (KYC, escrow, GDPR) introduced complexity and friction.
+
+Resolution: We implemented tiered verification—instant account setup for low-value trades, with progressively stricter checks for higher-value transactions—maintaining legal compliance without impeding usability

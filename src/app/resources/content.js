@@ -1,16 +1,16 @@
 import { Logo } from "@/once-ui/components";
 
 const person = {
-  firstName: "Selene",
-  lastName: "Yu",
+  firstName: "Milos",
+  lastName: "Nedeljkovic",
   get name() {
     return `${this.firstName} ${this.lastName}`;
   },
-  role: "Design Engineer",
+  role: "Senior Fullstack & AI Engineer",
   avatar: "/images/avatar.jpg",
-  email: "example@gmail.com",
-  location: "Asia/Jakarta", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-  languages: ["English", "Bahasa"], // optional: Leave the array empty if you don't want to display languages
+  email: "inodaren62@gmail.com",
+  location: "Europe/Belgrade", // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+  languages: ["English", "Serbian"], // optional: Leave the array empty if you don't want to display languages
 };
 
 const newsletter = {
@@ -18,8 +18,8 @@ const newsletter = {
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
-      I occasionally write about design, technology, and share thoughts on the intersection of
-      creativity and engineering.
+      I occasionally write about design, technology, and share thoughts on the
+      intersection of creativity and engineering.
     </>
   ),
 };
@@ -30,17 +30,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/once-ui-system/nextjs-starter",
+    link: "https://github.com/optistdev",
   },
   {
     name: "LinkedIn",
     icon: "linkedin",
-    link: "https://www.linkedin.com/company/once-ui/",
-  },
-  {
-    name: "X",
-    icon: "x",
-    link: "",
+    link: "https://www.linkedin.com/in/milos-nedeljkovic-b133ba319/",
   },
   {
     name: "Email",
@@ -55,16 +50,20 @@ const home = {
   label: "Home",
   title: `${person.name}'s Portfolio`,
   description: `Portfolio website showcasing my work as a ${person.role}`,
-  headline: <>Building bridges between design and code</>,
+  headline: <>Senior Fullstack Engineer</>,
   featured: {
     display: true,
-    title: <>Recent project: <strong className="ml-4">Once UI</strong></>,
+    title: (
+      <>
+        Recent project: <strong className="ml-4">Once UI</strong>
+      </>
+    ),
     href: "/work/building-once-ui-a-customizable-design-system",
   },
   subline: (
     <>
-      I'm Selene, a design engineer at <Logo icon={false} style={{ display: "inline-flex", top: "0.25em", marginLeft: "-0.25em" }}/>, where I craft intuitive
-      <br /> user experiences. After hours, I build my own projects.
+      Combining expertise in fullstack, and AI technologies to architect smart,
+      scalable solutions that bridge design, data, and functionality.
     </>
   ),
 };
@@ -83,16 +82,18 @@ const about = {
   },
   calendar: {
     display: true,
-    link: "https://cal.com",
+    link: "https://calendly.com/inodaren62",
   },
   intro: {
     display: true,
     title: "Introduction",
     description: (
       <>
-        Selene is a Jakarta-based design engineer with a passion for transforming complex challenges
-        into simple, elegant design solutions. Her work spans digital interfaces, interactive
-        experiences, and the convergence of design and technology.
+        Milos is a full-stack & AI engineer passionate about crafting
+        intelligent, end-to-end digital systems. His work bridges robust backend
+        architecture, intuitive front-end design, and cutting-edge machine
+        learning—delivering solutions where engineering precision meets
+        real-world impact.
       </>
     ),
   },
@@ -101,41 +102,108 @@ const about = {
     title: "Work Experience",
     experiences: [
       {
-        company: "FLY",
-        timeframe: "2022 - Present",
-        role: "Senior Design Engineer",
+        company: "DataArt",
+        timeframe: "10/2023 - 03/2025",
+        role: "Senior Fullstack Engineer",
         achievements: [
           <>
-            Redesigned the UI/UX for the FLY platform, resulting in a 20% increase in user
-            engagement and 30% faster load times.
+            Led end-to-end development of AI-powered web applications using
+            React, Next.js, Node.js, and Python (FastAPI/Flask), improving user
+            engagement.{" "}
           </>,
           <>
-            Spearheaded the integration of AI tools into design workflows, enabling designers to
-            iterate 50% faster.
+            Reviewed code and contributed to technical decisions on system
+            design, performance optimization, and tech stack evolution.
+          </>,
+          <>
+            Automated build and deployment pipelines via GitHub Actions and
+            Docker Compose, reducing release cycle time.
+          </>,
+          <>
+            Developed and documented RESTful and GraphQL APIs for AI model
+            interaction and data retrieval across multiple microservices.
           </>,
         ],
-        images: [
-          // optional: leave the array empty if you don't want to display images
-          {
-            src: "/images/projects/project-01/cover-01.jpg",
-            alt: "Once UI Project",
-            width: 16,
-            height: 9,
-          },
-        ],
+        images: [],
       },
       {
-        company: "Creativ3",
-        timeframe: "2018 - 2022",
-        role: "Lead Designer",
+        company: "Sitejet",
+        timeframe: "11/2021 - 08/2023",
+        role: "Fullstack Engineer",
         achievements: [
           <>
-            Developed a design system that unified the brand across multiple platforms, improving
-            design consistency by 40%.
+            Developed and maintained scalable web applications using React,
+            Node.js, and PostgreSQL, improving performance and reliability
+            across the stack.
           </>,
           <>
-            Led a cross-functional team to launch a new product line, contributing to a 15% increase
-            in overall company revenue.
+            Built real-time features using WebSockets, enhancing user engagement
+            and responsiveness.
+          </>,
+          <>
+            Implemented secure authentication/authorization systems with JWT,
+            OAuth2, and role-based access control.
+          </>,
+          <>
+            Designed data models and queries to support analytics dashboards,
+            using SQL, Redis for high-performance data access.
+          </>,
+          <>
+            Built reusable UI components with TypeScript and Tailwind CSS,
+            streamlining development and reducing duplicated code
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "Sogelink",
+        timeframe: "11/2019 - 10/2021",
+        role: "React Native Developer",
+        achievements: [
+          <>
+            Developed and maintained cross-platform mobile applications for iOS
+            and Android using React Native, ensuring smooth performance and a
+            consistent user experience.
+          </>,
+          <>
+            Built responsive, accessible, and pixel-perfect UIs with React
+            Native components, TypeScript, and Styled Components.
+          </>,
+          <>
+            Implemented navigation and deep linking using React Navigation,
+            enhancing user experience and session continuity.
+          </>,
+          <>
+            Performed code reviews and followed best practices in React Native
+            development.
+          </>,
+          <>
+            Participated in Agile development cycles, working closely with
+            designers and backend engineers to ship features.
+          </>,
+        ],
+        images: [],
+      },
+      {
+        company: "VegaIT",
+        timeframe: "04/2018 - 10/2019",
+        role: "Frontend Developer",
+        achievements: [
+          <>
+            Improved user engagement by developing client-facing applications
+            using React.js for enhanced responsiveness.
+          </>,
+          <>
+            Participated in daily stand-ups, sprint planning, and retrospectives
+            as part of an Agile development team
+          </>,
+          <>
+            Collaborated with designers to deliver responsive, accessible user
+            interfaces in line with WCAG standards.
+          </>,
+          <>
+            Ensured that UI components followed the design system and were
+            responsive on various screen sizes.
           </>,
         ],
         images: [],
@@ -147,12 +215,14 @@ const about = {
     title: "Studies",
     institutions: [
       {
-        name: "University of Jakarta",
-        description: <>Studied software engineering.</>,
-      },
-      {
-        name: "Build the Future",
-        description: <>Studied online marketing and personal branding.</>,
+        name: "Singidunum University",
+        description: (
+          <>
+            Graduated with a degree in Computer Science from Singidunum
+            University, with a strong foundation in algorithms, full-stack
+            development, and AI.
+          </>
+        ),
       },
     ],
   },
@@ -160,38 +230,33 @@ const about = {
     display: true, // set to false to hide this section
     title: "Technical skills",
     skills: [
-      {
-        title: "Figma",
-        description: <>Able to prototype in Figma with Once UI with unnatural speed.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-02.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-          {
-            src: "/images/projects/project-01/cover-03.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
-      {
-        title: "Next.js",
-        description: <>Building next gen apps with Next.js + Once UI + Supabase.</>,
-        // optional: leave the array empty if you don't want to display images
-        images: [
-          {
-            src: "/images/projects/project-01/cover-04.jpg",
-            alt: "Project image",
-            width: 16,
-            height: 9,
-          },
-        ],
-      },
+      { name: "JavaScript", icon: "javascript" },
+      { name: "TypeScript", icon: "typescript" },
+      { name: "React", icon: "react" },
+      { name: "Vue.js", icon: "vue" },
+      { name: "Redux", icon: "redux" },
+      { name: "Next.js", icon: "nextjs" },
+      { name: "Tailwind CSS", icon: "tailwind" },
+      { name: "Chakra UI", icon: "chakraui" },
+      { name: "Cypress", icon: "cypress" },
+      { name: "Jest", icon: "jest" },
+      { name: "Node.js", icon: "nodejs" },
+      { name: "Express.js", icon: "express" },
+      { name: "GraphQL", icon: "graphql" },
+      { name: "Python", icon: "python" },
+      { name: "Django", icon: "django" },
+      { name: "FastAPI", icon: "fastapi" },
+      { name: "PHP", icon: "php"},
+      { name: 'Laravel', icon: 'laravel'},
+      { name: "MySQL", icon: "mysql" },
+      { name: "PostgreSQL", icon: "postgresql" },
+      { name: "MongoDB", icon: "mongodb" },
+      { name: "Redis", icon: "redis" },
+      { name: "TensorFlow", icon: "tensorflow" },
+      { name: "Docker", icon: "docker" },
+      { name: "Google Cloud", icon: "gcp" },
+      { name: "Kubernetes", icon: "kubernetes" },
+      { name: "Git", icon: "git" },
     ],
   },
 };
