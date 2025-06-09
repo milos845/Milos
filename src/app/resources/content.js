@@ -14,7 +14,7 @@ const person = {
 };
 
 const newsletter = {
-  display: true,
+  display: false,
   title: <>Subscribe to {person.firstName}'s Newsletter</>,
   description: (
     <>
@@ -40,7 +40,7 @@ const social = [
   {
     name: "Email",
     icon: "email",
-    link: `mailto:${person.email}`,
+    link: `https://mail.google.com/mail/?view=cm&fs=1&to=${person.email}`,
   },
 ];
 
@@ -52,13 +52,13 @@ const home = {
   description: `Portfolio website showcasing my work as a ${person.role}`,
   headline: <>Senior Fullstack Engineer</>,
   featured: {
-    display: true,
+    display: false,
     title: (
       <>
-        Recent project: <strong className="ml-4">Once UI</strong>
+        Recent project: <strong className="ml-4">Cpayant</strong>
       </>
     ),
-    href: "/work/building-once-ui-a-customizable-design-system",
+    href: "/work/w-cross-border-trade-payments-platform-for-africa",
   },
   subline: (
     <>
@@ -246,8 +246,8 @@ const about = {
       { name: "Python", icon: "python" },
       { name: "Django", icon: "django" },
       { name: "FastAPI", icon: "fastapi" },
-      { name: "PHP", icon: "php"},
-      { name: 'Laravel', icon: 'laravel'},
+      { name: "PHP", icon: "php" },
+      { name: "Laravel", icon: "laravel" },
       { name: "MySQL", icon: "mysql" },
       { name: "PostgreSQL", icon: "postgresql" },
       { name: "MongoDB", icon: "mongodb" },
