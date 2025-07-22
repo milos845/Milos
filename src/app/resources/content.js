@@ -89,11 +89,13 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Milos is a full-stack & AI engineer passionate about crafting
-        intelligent, end-to-end digital systems. His work bridges robust backend
-        architecture, intuitive front-end design, and cutting-edge machine
-        learning—delivering solutions where engineering precision meets
-        real-world impact.
+        Milos is a product-minded Full Stack Engineer with 7+ years of experience turning complex ideas into fast, resilient, and user-focused applications.
+        His core stack includes React, Next.js, and Node.js, but he’s tool-agnostic—driven by outcomes over dogma.
+        From building GPT-powered assistants and token-gated dashboards to live editors and cross-platform apps,
+        Milos brings a deep understanding of both frontend finesse and backend architecture.
+        He's equally at home designing PostgreSQL schemas, wiring WebSocket streams, or refining component libraries.
+        With production-ready blockchain integrations and a pragmatic approach to AI, he thrives in environments where engineers own problems end-to-end and thoughtful
+        decisions outweigh job titles.
       </>
     ),
   },
@@ -107,22 +109,23 @@ const about = {
         role: "Senior Fullstack Engineer",
         achievements: [
           <>
-            Led end-to-end development of AI-powered web applications using
-            React, Next.js, Node.js, and Python (FastAPI/Flask), improving user
-            engagement.{" "}
+            Led development of real-time expense intelligence dashboards with server-rendered views, advanced filtering, and transaction classification using Next.js App Router, React, Tailwind CSS, and GraphQL with client-side caching and SSR hydration
           </>,
           <>
-            Reviewed code and contributed to technical decisions on system
-            design, performance optimization, and tech stack evolution.
+            Developed a policy-driven approval engine with multistep routing and escalation logic using Node.js, Redis queues, and PostgreSQL
           </>,
           <>
-            Automated build and deployment pipelines via GitHub Actions and
-            Docker Compose, reducing release cycle time.
+            Integrated a virtual card issuing system via Stripe APIs, handling secure webhooks and lifecycle events with FastAPI, async workers, and Docker
           </>,
           <>
-            Developed and documented RESTful and GraphQL APIs for AI model
-            interaction and data retrieval across multiple microservices.
+            Shipped an AI-powered metadata enrichment service for merchant classification using FastAPI, Celery, and Redis, with validated user input via React Hook Form
           </>,
+          <>
+            Implemented a distributed rate-limiting and observability layer using Node.js middleware and Winston logging, enabling per-user throttling, usage metering, and anomaly detection to ensure REST API reliability and cost control
+          </>,
+          <>
+            Managed CI/CD with GitHub Actions and Docker Compose, automating builds, secret injection, testing, and versioned production deployments
+          </>
         ],
         images: [],
       },
@@ -132,26 +135,23 @@ const about = {
         role: "Fullstack Engineer",
         achievements: [
           <>
-            Developed and maintained scalable web applications using React,
-            Node.js, and PostgreSQL, improving performance and reliability
-            across the stack.
+            Guided the development of large Ecommerce and SaaS platforms using React, TypeScript, Tailwind CSS, NoSQL and SQL databases building reusable UI components, theme systems, and drag-and-drop editors with real-time preview support.
           </>,
           <>
-            Built real-time features using WebSockets, enhancing user engagement
-            and responsiveness.
+            Created scalable backend logic in Node.js (Express) and serverless APIs, using PostgreSQL and Redis for session storage, analytics, and role-based access layers.
           </>,
           <>
-            Implemented secure authentication/authorization systems with JWT,
-            OAuth2, and role-based access control.
+            Built secure authentication flows using JWT and OAuth2, and extended them with SIWE (Sign-in with Ethereum) to support wallet-based login for crypto-native users.
           </>,
           <>
-            Designed data models and queries to support analytics dashboards,
-            using SQL, Redis for high-performance data access.
+            Integrated blockchain features using Ethers.js, Wallet Connect, and ENS for connecting wallets, verifying signatures, and displaying decentralized identities and assets.
           </>,
           <>
-            Built reusable UI components with TypeScript and Tailwind CSS,
-            streamlining development and reducing duplicated code
+            Implemented real-time collaboration features using WebSocket channels, presence detection, and debounced sync patterns.
           </>,
+          <>
+            Managed CI pipelines on Vercel, ensuring comprehensive test coverage for critical paths. Monitored system health with uptime checks, log-based alerts, and Vercel’s analytics for deployment performance.
+          </>
         ],
         images: [],
       },
@@ -161,25 +161,19 @@ const about = {
         role: "React Native Developer",
         achievements: [
           <>
-            Developed and maintained cross-platform mobile applications for iOS
-            and Android using React Native, ensuring smooth performance and a
-            consistent user experience.
+            Built cross-platform mobile applications using React Native and Redux, focusing on responsive UI, high performance (60 FPS), and seamless offline capability via SQLite and local storage.
           </>,
           <>
-            Built responsive, accessible, and pixel-perfect UIs with React
-            Native components, TypeScript, and Styled Components.
+            Blended native features including camera, biometric authentication, and geolocation through custom bridges in Swift/Kotlin for tighter platform integration.
           </>,
           <>
-            Implemented navigation and deep linking using React Navigation,
-            enhancing user experience and session continuity.
+            Structured screen flow and deep linking via React Navigation, supporting dynamic tab nesting, route guards, and multi-platform transition consistency.
           </>,
           <>
-            Performed code reviews and followed best practices in React Native
-            development.
+            Prototyped an internal NFT credentialing tool using Solana/web3.js, implementing wallet connection flows and displaying metadata for user-bound NFTs.
           </>,
           <>
-            Participated in Agile development cycles, working closely with
-            designers and backend engineers to ship features.
+            Commanded OTA deployments and internal testing via Bitrise and App Center, with automated Detox test runs for smoke validation on real devices.
           </>,
         ],
         images: [],
@@ -190,20 +184,16 @@ const about = {
         role: "Frontend Developer",
         achievements: [
           <>
-            Improved user engagement by developing client-facing applications
-            using React.js for enhanced responsiveness.
+            Rebuilt outdated web apps using React and Redux, introducing modular state slices, component-based design, and scoped CSS styling with SCSS modules.
           </>,
           <>
-            Participated in daily stand-ups, sprint planning, and retrospectives
-            as part of an Agile development team
+            Developed dashboards, charts, and form flows using Chart.js, Formik, and React Table, focusing on performance, accessibility, and consistent UX across devices.
           </>,
           <>
-            Collaborated with designers to deliver responsive, accessible user
-            interfaces in line with WCAG standards.
+            Improved SEO and accessibility scores significantly by adopting semantic markup, structured data, ARIA roles, and keyboard navigation patterns.
           </>,
           <>
-            Ensured that UI components followed the design system and were
-            responsive on various screen sizes.
+            Integrated payment and mapping APIs like Stripe and Google Maps, wrapping them in custom logic to reduce external failures and enhance user experience.
           </>,
         ],
         images: [],
