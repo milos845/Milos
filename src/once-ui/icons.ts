@@ -67,7 +67,7 @@ import {
   SiGooglecloud
 } from "react-icons/si";
 
-import { FaDiscord, FaGithub, FaLinkedin, FaX } from "react-icons/fa6";
+import { FaDiscord, FaGithub, FaLinkedin, FaX, FaTelegram } from "react-icons/fa6";
 
 export const iconLibrary: Record<string, IconType> = {
   chevronUp: HiChevronUp,
@@ -98,6 +98,7 @@ export const iconLibrary: Record<string, IconType> = {
   eyeOff: HiOutlineEyeSlash,
   github: FaGithub,
   linkedin: FaLinkedin,
+  telegram: FaTelegram,
   x: FaX,
   clipboard: HiClipboard,
   arrowUpRightFromSquare: HiArrowTopRightOnSquare,

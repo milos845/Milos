@@ -30,7 +30,12 @@ const social = [
   {
     name: "GitHub",
     icon: "github",
-    link: "https://github.com/cosmic-D",
+    link: "https://github.com/Astravexx",
+  },
+  {
+    name: "Telegram",
+    icon: "telegram",
+    link: "https://t.me/Astravex01"
   },
   {
     name: "LinkedIn",
@@ -89,13 +94,7 @@ const about = {
     title: "Introduction",
     description: (
       <>
-        Milos is a product-minded Full Stack Engineer with 7+ years of experience turning complex ideas into fast, resilient, and user-focused applications.
-        His core stack includes React, Next.js, and Node.js, but he’s tool-agnostic—driven by outcomes over dogma.
-        From building GPT-powered assistants and token-gated dashboards to live editors and cross-platform apps,
-        Milos brings a deep understanding of both frontend finesse and backend architecture.
-        He's equally at home designing PostgreSQL schemas, wiring WebSocket streams, or refining component libraries.
-        With production-ready blockchain integrations and a pragmatic approach to AI, he thrives in environments where engineers own problems end-to-end and thoughtful
-        decisions outweigh job titles.
+        Results-driven Full Stack Engineer with 7 years of experience designing and delivering scalable, user-focused web applications. Proficient in React for building modern, responsive interfaces and Node.js for developing high-performance APIs and backend services. Experienced with both SQL and NoSQL databases, including MongoDB, to design reliable and efficient data solutions. Skilled in integrating AI-driven features such as GPT-powered chatbots and conversational workflows to enhance automation and user engagement. Known for collaborating effectively with cross-functional teams and taking ownership of projects end-to-end, delivering clean, maintainable, and resilient systems.
       </>
     ),
   },
@@ -109,22 +108,22 @@ const about = {
         role: "Senior Fullstack Engineer",
         achievements: [
           <>
-            Led development of real-time expense intelligence dashboards with server-rendered views, advanced filtering, and transaction classification using Next.js App Router, React, Tailwind CSS, and GraphQL with client-side caching and SSR hydration
+            Engineered a booking platform for studios, rehearsal spaces, and creative rooms, enabling on-demand reservations with integrated smart lock access.
           </>,
           <>
-            Developed a policy-driven approval engine with multistep routing and escalation logic using Node.js, Redis queues, and PostgreSQL
+            Constructed server-side rendered web interfaces using Next.js and React, providing real-time availability updates, advanced filtering, and seamless user interactions.
           </>,
           <>
-            Integrated a virtual card issuing system via Stripe APIs, handling secure webhooks and lifecycle events with FastAPI, async workers, and Docker
+            Developed backend services with Node.js, implementing multistep booking workflows, policy-based approval logic, and asynchronous task handling through Redis queues and background workers.
           </>,
           <>
-            Shipped an AI-powered metadata enrichment service for merchant classification using FastAPI, Celery, and Redis, with validated user input via React Hook Form
+            Integrated payment and access control systems using Stripe APIs, handling secure webhooks and lifecycle events to ensure reliable transaction processing and room access.
           </>,
           <>
-            Implemented a distributed rate-limiting and observability layer using Node.js middleware and Winston logging, enabling per-user throttling, usage metering, and anomaly detection to ensure REST API reliability and cost control
+            Delivered an AI-assisted metadata service for categorizing studios and resources, enhancing search and recommendation accuracy by 35%.
           </>,
           <>
-            Managed CI/CD with GitHub Actions and Docker Compose, automating builds, secret injection, testing, and versioned production deployments
+            Implemented a distributed monitoring and throttling framework with middleware logging, usage metrics, and anomaly detection to ensure API stability and optimal performance.
           </>
         ],
         images: [],
@@ -132,25 +131,28 @@ const about = {
       {
         company: "Sitejet",
         timeframe: "11/2021 - 08/2023",
-        role: "Fullstack Engineer",
+        role: "Fullstack Developer",
         achievements: [
           <>
-            Guided the development of large Ecommerce and SaaS platforms using React, TypeScript, Tailwind CSS, NoSQL and SQL databases building reusable UI components, theme systems, and drag-and-drop editors with real-time preview support.
+            Developed a scalable nutrition platform delivering personalized health tips and interactive AI chatbot support, covering frontend, backend, and admin panel.
           </>,
           <>
-            Created scalable backend logic in Node.js (Express) and serverless APIs, using PostgreSQL and Redis for session storage, analytics, and role-based access layers.
+            Built a modular, responsive frontend with React, TypeScript, and Tailwind CSS, creating reusable component libraries, theme systems, and drag-and-drop editors with real-time preview capabilities.
           </>,
           <>
-            Built secure authentication flows using JWT and OAuth2, and extended them with SIWE (Sign-in with Ethereum) to support wallet-based login for crypto-native users.
+            Implemented robust backend services using Node.js (Express) and serverless APIs, managing user authentication, session handling, analytics, and role-based access with SQL and NoSQL databases.
           </>,
           <>
-            Integrated blockchain features using Ethers.js, Wallet Connect, and ENS for connecting wallets, verifying signatures, and displaying decentralized identities and assets.
+            Integrated a custom GPT-powered chatbot for personalized nutrition guidance, handling contextual conversations, fallback logic, and user query processing to enhance engagement and automation.
           </>,
           <>
-            Implemented real-time collaboration features using WebSocket channels, presence detection, and debounced sync patterns.
+            Added real-time features including WebSocket-based notifications, presence detection, and debounced synchronization patterns for live updates.
           </>,
           <>
-            Managed CI pipelines on Vercel, ensuring comprehensive test coverage for critical paths. Monitored system health with uptime checks, log-based alerts, and Vercel’s analytics for deployment performance.
+            Managed cloud deployment and DevOps with Vercel and AWS, including CI/CD pipelines, automated testing, secret management, serverless function deployment, monitoring, and logging for production reliability.
+          </>,
+          <>
+            Delivered an admin dashboard with analytics, operational insights, and content management tools, enabling efficient platform administration and data-driven decision-making.
           </>
         ],
         images: [],
@@ -158,42 +160,45 @@ const about = {
       {
         company: "Sogelink",
         timeframe: "11/2019 - 10/2021",
-        role: "React Native Developer",
+        role: "Full Stack Web Developer",
         achievements: [
           <>
-            Built cross-platform mobile applications using React Native and Redux, focusing on responsive UI, high performance (60 FPS), and seamless offline capability via SQLite and local storage.
+            Architected and implemented a high-performance e-commerce platform using React.js for the frontend and Node.js/Express.js for backend services, emphasizing modular, maintainable, and reusable code structures.
           </>,
           <>
-            Blended native features including camera, biometric authentication, and geolocation through custom bridges in Swift/Kotlin for tighter platform integration.
+            Developed RESTful APIs to handle product catalogs, order processing, inventory management, and user authentication, incorporating real-time features such as order status updates and notifications via Socket.IO.
           </>,
           <>
-            Structured screen flow and deep linking via React Navigation, supporting dynamic tab nesting, route guards, and multi-platform transition consistency.
+            Integrated third-party services including payment gateways, messaging APIs, and GPT-powered chatbots, increasing customer self-service engagement by 40% and reducing support response time by 50%.
           </>,
           <>
-            Prototyped an internal NFT credentialing tool using Solana/web3.js, implementing wallet connection flows and displaying metadata for user-bound NFTs.
+            Designed and optimized data models for both SQL and NoSQL (MongoDB) databases, ensuring ACID-compliant transactions, indexing strategies, and query performance for large-scale datasets.
           </>,
           <>
-            Commanded OTA deployments and internal testing via Bitrise and App Center, with automated Detox test runs for smoke validation on real devices.
+            Developed an admin dashboard with analytics and reporting, enabling 20% faster operational decision-making and providing insights across inventory, orders, and user behavior.
           </>,
+          <>
+            Leveraged Firebase for authentication, push notifications, and cloud messaging, enabling secure, real-time interactions across web and mobile clients.
+          </>
         ],
         images: [],
       },
       {
         company: "VegaIT",
         timeframe: "04/2018 - 10/2019",
-        role: "Frontend Developer",
+        role: "Frontend Developer (React.js)",
         achievements: [
           <>
-            Rebuilt outdated web apps using React and Redux, introducing modular state slices, component-based design, and scoped CSS styling with SCSS modules.
+            Refactored legacy web applications using React and Redux, introducing modular state management, reusable components, and scoped CSS with SCSS modules for maintainability.
           </>,
           <>
-            Developed dashboards, charts, and form flows using Chart.js, Formik, and React Table, focusing on performance, accessibility, and consistent UX across devices.
+            Implemented interactive dashboards, charts, and dynamic forms with Chart.js, Formik, and React Table, focusing on efficient rendering, accessibility, and cross-device consistency.
           </>,
           <>
-            Improved SEO and accessibility scores significantly by adopting semantic markup, structured data, ARIA roles, and keyboard navigation patterns.
+            Enhanced SEO and accessibility by applying semantic HTML, structured data, ARIA attributes, and keyboard navigation support, improving user experience and search engine visibility.
           </>,
           <>
-            Integrated payment and mapping APIs like Stripe and Google Maps, wrapping them in custom logic to reduce external failures and enhance user experience.
+            Integrated third-party APIs including Stripe and Google Maps, adding custom logic to handle failures gracefully and ensure seamless user interactions.
           </>,
         ],
         images: [],
